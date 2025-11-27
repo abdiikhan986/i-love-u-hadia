@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Virtual Cake for Hadia 🎂</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-main">
+    <header class="top-nav">
+      <div class="logo">Haduu’s Day 💜</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="story.html">Our Story</a>
+        <a href="cake.html" class="active">Virtual Cake</a>
+        <a href="love-letters.html">Love Letters</a>
+      </nav>
+    </header>
+
+    <main class="page center-page">
+      <section class="section center">
+        <h1>Your Virtual Birthday Cake 🎂</h1>
+        <p>
+          My Hayatii, imagine this cake is in front of you. I wish I could be
+          standing next to you, holding your hand while you make your wish. For
+          now, let this be our little digital cake that only you can blow and
+          cut.
+        </p>
+
+        <div class="cake-wrapper">
+          <div class="cake">
+            <div class="plate"></div>
+            <div class="layer layer-bottom"></div>
+            <div class="layer layer-middle"></div>
+            <div class="layer layer-top"></div>
+            <div class="icing"></div>
+
+            <div class="candle" id="candle">
+              <div class="flame" id="flame"></div>
+            </div>
+
+            <div class="sprinkles">
+              <span></span><span></span><span></span> <span></span><span></span
+              ><span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cake-controls">
+          <button class="btn primary-btn" id="blowButton">
+            Blow the candle by tap 💨
+          </button>
+          <button class="btn ghost-btn" id="micButton">
+            Blow using your mic 🎙️
+          </button>
+          <button class="btn black-btn" id="cutButton" disabled>
+            Cut the cake 🍰
+          </button>
+        </div>
+
+        <p class="cake-status" id="cakeStatus">
+          First, make a silent wish in your heart, my Wifeyy… then blow the
+          candle.
+        </p>
+
+        <div class="cake-slices" id="cakeSlices">
+          <div class="slice">🍰</div>
+          <div class="slice">🍰</div>
+          <div class="slice">🍰</div>
+        </div>
+
+        <p class="cake-message" id="cakeMessage"></p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        If distance could be eaten, it would taste like this cake – sweet, soft
+        and full of us. 💜
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
